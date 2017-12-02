@@ -1,5 +1,5 @@
 # hands-api
-API REST with NodeJS and MongoDB. Import CSV file into mongo database
+API REST with NodeJS and MongoDB. Import CSV file held in the "assets" directory to the mongo database.
 
 
 ## Want to use this project?

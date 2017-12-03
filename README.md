@@ -1,4 +1,4 @@
-# hands-api
+# Hands API
 API REST with NodeJS and MongoDB. Import CSV file held in the "assets" directory to the mongo database.
 
 

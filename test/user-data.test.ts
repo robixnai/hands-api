@@ -16,8 +16,8 @@ describe('http://localhost:3000/user/data/', () => {
             });
     });
 
-    it('Responds with pagination - /pagination/:pagination/records/:records', () => {
-        return chai.request(app).get('/user/data/pagination/2/records/10')
+    it('Responds with pagination - /page/:page', () => {
+        return chai.request(app).get('/user/data/page/2')
             .then(res => {
                 expect(res.status).to.equal(200);
                 expect(res).to.be.json;

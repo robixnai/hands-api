@@ -16,7 +16,7 @@ class UserDataRouter {
     routes() {
         this.router.get('/count', this.controller.size);
         this.router.get('/all', this.controller.all);
-        this.router.get('/page/:page/records/:records', this.controller.pagination);
+        this.router.get('/page/:page', this.controller.pagination);
         this.router.get('/:id', this.controller.one);
         this.router.put('/:id', this.controller.update);
     }
